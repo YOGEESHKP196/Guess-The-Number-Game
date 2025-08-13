@@ -1,0 +1,26 @@
+*{
+    background-color: orange;
+}
+.box{
+    /*border:2px solid black;*/               /*border*/
+    padding: 10px;                          /*gap inside*/    
+    position: absolute;                     /*border box center align start*/
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);       /*border box center align end*/
+    width: 300px;
+    height: 200px;
+    display: flex;                         /*content align center*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px ;
+    border-radius: 10px;
+}
+.child{
+    margin-top: 10px;                       /*gap between child elements*/
+}
+button{
+    background-color: rgb(20, 20, 231);
+    color: rgb(180, 180, 221);
+}
